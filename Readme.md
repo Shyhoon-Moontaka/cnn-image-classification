@@ -50,7 +50,7 @@ The CNN architecture is designed for optimal shape classification performance:
 
 <img width="981" height="451" alt="image" src="https://github.com/user-attachments/assets/f8b87b03-1294-4d15-ad98-37c9c6504b37" />
 
-###Confusion Matrix
+### Confusion Matrix
 
 <img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/c9e2ae7b-f0f1-429a-9fdc-1b4790a82151" />
 
@@ -148,9 +148,8 @@ The model demonstrates excellent performance on the shape classification task:
 
 <img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/766499c4-00eb-4efe-b601-440b47e888d8" />
 
+<img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/4d415bf0-55a7-4059-aab4-053d1a60f9b2" />
+
 ## Author
 
 - **Shyhoon Moontaka** - *Initial work* - https://github.com/Shyhoon-Moontaka
-
-
-**Note**: This project uses placeholder images for demonstration. Replace with actual images for production use.
