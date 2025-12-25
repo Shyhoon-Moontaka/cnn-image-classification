@@ -1,23 +1,10 @@
-# CNN Shape Classification Project
+# CNN Image Classification Using PyTorch
 
-A Convolutional Neural Network (CNN) implementation for automatic shape classification using computer vision techniques.
+A Convolutional Neural Network (CNN) implementation for geometric shapes classification using PyTorch.
 
-## 📋 Table of Contents
+## Project Overview
 
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Requirements](#requirements)
-- [Contributing](#contributing)
-- [License](#license)
-
-## 🎯 Project Overview
-
-This project implements a deep learning solution for classifying geometric shapes (circles, squares, and triangles) using a Convolutional Neural Network. The model is trained on a custom dataset of shape images and achieves high accuracy in shape recognition tasks.
+This project implements a deep learning solution for classifying geometric shapes (circles, squares, and triangles) using a Convolutional Neural Network. The model is trained on a custom dataset of shape images and achieves high accuracy in shape recognition tasks via PyTorch.
 
 ### Key Features
 
@@ -37,17 +24,6 @@ dataset/
 ├── square/          # Square shape images
 └── triangle/        # Triangle shape images
 ```
-
-### Sample Images
-
-**Circle Samples**
-![Circle Sample Placeholder](https://via.placeholder.com/150/4285f4/ffffff?text=Circle)
-
-**Square Samples**
-![Square Sample Placeholder](https://via.placeholder.com/150/ea4335/ffffff?text=Square)
-
-**Triangle Samples**
-![Triangle Sample Placeholder](https://via.placeholder.com/150/fbbc04/000000?text=Triangle)
 
 ### Dataset Statistics
 
@@ -71,12 +47,12 @@ The CNN architecture is designed for optimal shape classification performance:
 ### Model Performance
 
 **Training Results**
-![Training Results Placeholder](https://via.placeholder.com/400x200/34a853/ffffff?text=Training+Accuracy:+95%)
+<img width="981" height="451" alt="image" src="https://github.com/user-attachments/assets/f8b87b03-1294-4d15-ad98-37c9c6504b37" />
 
 **Confusion Matrix**
-![Confusion Matrix Placeholder](https://via.placeholder.com/300x300/4285f4/ffffff?text=Confusion+Matrix)
+<img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/c9e2ae7b-f0f1-429a-9fdc-1b4790a82151" />
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -96,7 +72,7 @@ The CNN architecture is designed for optimal shape classification performance:
    pip install -r requirements.txt
    ```
 
-## 💻 Usage
+## Usage
 
 ### Training the Model
 
@@ -154,41 +130,24 @@ jupyter>=1.0.0
 pillow>=8.3.0
 ```
 
-## 🎯 Results
+## Results
 
 The model demonstrates excellent performance on the shape classification task:
 
-- **Accuracy**: 95%+ on test set
+- **Accuracy**: 87.5%+ on test set
 - **Training Time**: Optimized for fast convergence
 - **Model Size**: Lightweight for deployment
 
 ### Sample Predictions
 
-**Correctly Classified Shapes**
-![Sample Results Placeholder](https://via.placeholder.com/500x200/34a853/ffffff?text=Sample+Predictions+Here)
+<img width="1189" height="1140" alt="image" src="https://github.com/user-attachments/assets/11b68fc5-3b76-4986-96f6-a049fbebd13b" />
 
-## 🤝 Contributing
+## Visual Error Analysis
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📄 License
+## Author
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Shyhoon Moontaka** - *Initial work* - (https://github.com/Shyhoon-Moontaka)
 
-## 👨‍💻 Author
-
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- Dataset contributors
-- Research papers that inspired this implementation
-- Open source community for tools and frameworks
-
----
 
 **Note**: This project uses placeholder images for demonstration. Replace with actual images for production use.
