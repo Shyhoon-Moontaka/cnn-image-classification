@@ -1,4 +1,4 @@
-# CNN Image Classification Using PyTorch
+# CNN Image Classification
 
 A Convolutional Neural Network (CNN) implementation for geometric shapes classification using PyTorch.
 
@@ -13,7 +13,7 @@ This project implements a deep learning solution for classifying geometric shape
 - **Custom Dataset**: Trained on carefully curated shape images
 - **Model Persistence**: Pre-trained model ready for deployment
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains labeled images of three geometric shapes:
 
@@ -34,7 +34,7 @@ dataset/
 | Triangle | 3 | PNG |
 | **Total** | **10** | **PNG** |
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The CNN architecture is designed for optimal shape classification performance:
 
@@ -44,12 +44,14 @@ The CNN architecture is designed for optimal shape classification performance:
 - **Fully Connected Layers**: Classification with softmax activation
 - **Output**: 3 classes (Circle, Square, Triangle)
 
-### Model Performance
+## Model Performance
 
-**Training Results**
+### Training Results
+
 <img width="981" height="451" alt="image" src="https://github.com/user-attachments/assets/f8b87b03-1294-4d15-ad98-37c9c6504b37" />
 
-**Confusion Matrix**
+###Confusion Matrix
+
 <img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/c9e2ae7b-f0f1-429a-9fdc-1b4790a82151" />
 
 ## Installation
@@ -106,7 +108,7 @@ def predict_shape(image_path):
     pass
 ```
 
-## 📁 File Structure
+## File Structure
 
 ```
 ├── 210105.ipynb          # Main training notebook
@@ -119,7 +121,7 @@ def predict_shape(image_path):
     └── 210105.pth        # PyTorch model file
 ```
 
-## 📦 Requirements
+## Requirements
 
 ```txt
 torch>=1.9.0
@@ -144,10 +146,11 @@ The model demonstrates excellent performance on the shape classification task:
 
 ## Visual Error Analysis
 
+<img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/766499c4-00eb-4efe-b601-440b47e888d8" />
 
 ## Author
 
-- **Shyhoon Moontaka** - *Initial work* - (https://github.com/Shyhoon-Moontaka)
+- **Shyhoon Moontaka** - *Initial work* - https://github.com/Shyhoon-Moontaka
 
 
 **Note**: This project uses placeholder images for demonstration. Replace with actual images for production use.
